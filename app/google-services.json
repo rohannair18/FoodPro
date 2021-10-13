@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "235551130984",
+    "project_id": "foodpro-b6bc7",
+    "storage_bucket": "foodpro-b6bc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235551130984:android:bfef2c7a161b021875c2dd",
+        "android_client_info": {
+          "package_name": "com.example.foodpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235551130984-kctipeskavqn8p75rh9rs19reu8b100o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBe3EjeYF7KOw0Cxf8nzdHLEwBwTtsApg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235551130984-kctipeskavqn8p75rh9rs19reu8b100o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
