@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                db=FirebaseDatabase()
                 Intent i = new Intent(getApplicationContext(), Register.class);
                 startActivity(i);
             }
