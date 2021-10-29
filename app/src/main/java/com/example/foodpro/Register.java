@@ -58,7 +58,7 @@ public class Register extends AppCompatActivity {
         s_address=address.getText().toString().trim();
         s_password=password.getText().toString().trim();
         Food food;
-        food =new Food(s_name,s_email,s_username,s_address,s_password);
+        food =new Food(s_name,s_email,s_address,s_password,s_username);
         fooddbref.push().setValue(food);
         Toast.makeText(getApplicationContext(),"Data inserted", Toast.LENGTH_SHORT).show();
 
