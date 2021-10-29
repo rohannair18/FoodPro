@@ -56,7 +56,7 @@ public class Register extends AppCompatActivity {
         s_email=email.getText().toString().trim();
         s_username=username.getText().toString().trim();
         s_address=address.getText().toString().trim();
-        s_password=address.getText().toString().trim();
+        s_password=password.getText().toString().trim();
         Food food;
         food =new Food(s_name,s_email,s_username,s_address,s_password);
         fooddbref.push().setValue(food);
