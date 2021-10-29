@@ -32,4 +32,6 @@ public class Food {
     }
 
     public String getS_password(){return s_password;}
+
+
 }
