@@ -46,7 +46,7 @@ public class Register extends AppCompatActivity {
                 String s_confirm_password = confirm_password.getText().toString().trim();
 
                 if (s_password.equals(s_confirm_password)){
-                    Intent k= new Intent(getApplicationContext(), Location.class);
+                    Intent k= new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(k);
                     database=FirebaseDatabase.getInstance();
                     fooddbref=database.getReference().child("Food");
