@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/foodprofinallogo"
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodPro">
-        <activity android:name=".Details"></activity>
+        <activity
+            android:name=".Restaurant"
+            android:exported="false" />
+        <activity android:name=".Details" />
         <activity android:name=".CheckOut" />
         <activity android:name=".Location" />
         <activity android:name=".Order" />
